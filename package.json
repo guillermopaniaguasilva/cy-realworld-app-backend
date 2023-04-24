@@ -7,6 +7,9 @@
     "start": "npm run tsnode --files src/app.ts",
     "tsnode": "npx nyc --silent ts-node -P tsconfig.tsnode.json"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
